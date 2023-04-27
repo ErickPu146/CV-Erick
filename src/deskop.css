@@ -1,0 +1,16 @@
+#navbar {
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    height:100vh;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 4.5rem;
+}
+
+#cardProject {
+    height: 9rem;
+}
+

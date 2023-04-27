@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#navbar {
+    background-color: #d15706;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.interaction:hover {
+    background-color: rgb(182, 61, 1);
+    border-radius: 3rem;
+}
+
+.orange {
+    color: rgb(182, 61, 1);
+    text-decoration: none;
+}
+.link:hover {
+    color: #d15706;
+    text-decoration: underline;
+}
+
+#educationCard {
+    width: auto;
+    background-color: #d15706;
+}
+
+#cardProject {
+    height: 10rem;
+}
+
+
+
+
