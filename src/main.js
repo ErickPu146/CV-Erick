@@ -1,12 +1,17 @@
+import enviroment from "./config.js"
+
 const baseUrl = 'https://api.github.com/users/ErickPu146'
-const containerProjetcs = document.querySelector('#containerProjects');
-
+const containerProjects = document.querySelector('#containerProjects');
 let proyectos = '';
-
     
 const fetchData = async (url) => {
     try {
-        const response = await fetch(url);
+        let option = {
+            "headers": {
+                "Authorization": `token ${enviroment.TOKEN_GITHUB}`
+            }
+        }
+        const response = await fetch(url, option);
         const data = await response.json();
 
         for (let repo of data) {
@@ -64,7 +69,7 @@ const fetchData = async (url) => {
             `
             proyectos += project
         }
-        containerProjetcs.innerHTML = proyectos
+        containerProjects.innerHTML = proyectos
     } catch (error) {
         console.error(error)
     }

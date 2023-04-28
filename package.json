@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-fetch": "^3.3.1"
+  },
+  "type": "module",
+  "name": "proyectoapi",
+  "description": "## Página:",
+  "version": "1.0.0",
+  "main": "./src/main.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErickPu146/CV-Erick.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErickPu146/CV-Erick/issues"
+  },
+  "homepage": "https://github.com/ErickPu146/CV-Erick#readme"
+}
